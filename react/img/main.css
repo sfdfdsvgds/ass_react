@@ -1,0 +1,93 @@
+/* HEADER-------- */
+.header-main{
+    background-color: rgb(247, 245, 245);
+}
+
+nav{
+    font-size: 18px;
+}
+.collapse ul{
+    padding: 10px 50px;
+}
+.nav-link{
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.icon{
+   display: flex;
+   background: rgb(247, 245, 245);
+   
+}
+.icon a i{
+    font-size: 13px;
+    padding-left: 14px;
+    padding-top: 12px;
+}
+.icon a{
+   color: black;
+}
+
+
+/* AND HEADER ------*/
+
+
+
+/* bar */
+.bar{
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
+nav ol li a{
+    color: black;
+    
+}
+nav ol li{
+    font-size: 10px;
+}
+/* ----- */
+
+/* container */
+.row{
+    margin-top: 40px;
+}
+h3{
+    
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+
+}
+.row p{
+    font-size: 13px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+.row h5{
+    font-size: 13px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+nav ul li{
+    /* list-style: none; */
+    font-size: 13px;
+    font-family: 'Nanum Gothic', sans-serif;
+   
+}
+footer{
+    margin-top: 200px;
+    
+
+
+
+}
+.trademark{
+    text-align: center;
+}
+.address{
+    background-color:  rgb(247, 245, 245);
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
