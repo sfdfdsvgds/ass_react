@@ -5,11 +5,17 @@ type PrivateRouterProps = {
 }
 
 const PrivateRouter = (props: PrivateRouterProps) => {
-    const isAdmin = true;
-    if(!isAdmin){
-        return <Navigate to="/login" />
+   const email = JSON.parse(localStorage.getItem("user")).user.email;
+  
+   
+   
+    if(email == "vuong07112002@gmail.com"){
+        return props.children
+        
+    }else{
+
+        return <Navigate to="/" />
     }
-  return props.children
 }
 
 export default PrivateRouter
