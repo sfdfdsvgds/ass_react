@@ -40,9 +40,8 @@ const Homepage = (product: HomepageProps) => {
             </h3>
           </div>
           <div className="row">
-          {product.product?.map((item) => {
-            return (
-              
+            {product.product?.map((item) => {
+              return (
                 <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
                   <div className="card" style={{ width: '18rem' }}>
                     <a href="ProductDetail">
@@ -54,10 +53,9 @@ const Homepage = (product: HomepageProps) => {
                     </div>
                   </div>
                 </div>
-              
-            )
-          })}
-</div>
+              )
+            })}
+          </div>
         </div>
 
       </div>

@@ -53,11 +53,11 @@ function App() {
       <Routes>
         <Route path="/" element={<WebsiteLayout />}>
           <Route index element={<Homepage product={products} />} />
-          <Route path="Product" element={<Product />} />
+          <Route path="Product" element={<Product products={products}/>} />
           <Route path="News" element={<News />} />
           <Route path="Contact" element={<Contact />} />
           <Route path="Introduce" element={<Introduce />} />
-          <Route path="ProductDetail" element={<ProductDetail />} />
+          <Route path="ProductDetail" element={<ProductDetail product={products}/>} />
 
           {/* <Route path="product">
             <Route index element={<h1>Product Page</h1>} />
