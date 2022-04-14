@@ -5,15 +5,11 @@ type PrivateRouterProps = {
 }
 
 const PrivateRouter = (props: PrivateRouterProps) => {
-   const email = JSON.parse(localStorage.getItem("user")).user.email;
-  
-   
-   
+   const email = JSON.parse(localStorage.getItem("user")as string).user.email;
     if(email == "vuong07112002@gmail.com"){
         return props.children
         
     }else{
-
         return <Navigate to="/" />
     }
 }

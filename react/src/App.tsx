@@ -31,10 +31,14 @@ function App() {
   }, [])
 
   const removeItem = (id: number) => {
-    confirm("bạn chắc chưa?");
-    remove(id);
-    // reRender
-    setProducts(products.filter(item => item.id !== id));
+   
+  
+      remove(id);
+      // reRender
+      setProducts(products.filter(item => item.id !== id));
+    
+   
+    location.reload();
     // setProduct()
   }
   const onHanldeAdd = (data: ProductType) => {
@@ -57,7 +61,7 @@ function App() {
           <Route path="News" element={<News />} />
           <Route path="Contact" element={<Contact />} />
           <Route path="Introduce" element={<Introduce />} />
-          <Route path="ProductDetail" element={<ProductDetail product={products}/>} />
+          <Route path=":id/ProductDetail" element={<ProductDetail product={products}/>} />
 
           {/* <Route path="product">
             <Route index element={<h1>Product Page</h1>} />

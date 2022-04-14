@@ -44,7 +44,7 @@ const Homepage = (product: HomepageProps) => {
               return (
                 <div className="col-xl-3 col-lg-4 col-md-6 col-sm-12">
                   <div className="card" style={{ width: '18rem' }}>
-                    <a href="ProductDetail">
+                    <a href={`${item._id}/ProductDetail`}>
                       <img src={item.img} className="card-img-top" alt="..." /></a>
                     <div className="card-body">
                       <h5 className="card-title">{item.name}</h5>

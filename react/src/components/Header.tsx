@@ -9,7 +9,7 @@ const Header = (props: Props) => {
         <div className="container"></div>
         <nav className="navbar navbar-expand-lg navbar-light ">
           <div className="container-fluid">
-            <a className="navbar-brand" href="#"><img src="img/logo.jpg" alt="" width="150px" /></a>
+            <a className="navbar-brand" href="#"><img src="http://localhost:3000/img/logo.jpg" alt="" width="150px" /></a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
               aria-expanded="false" aria-label="Toggle navigation">

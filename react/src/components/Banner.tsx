@@ -14,7 +14,7 @@ const Banner = (props: Props) => {
             </div>
             <div className="carousel-inner">
               <div className="carousel-item active">
-                <img src="img/img-5.jpg" className="d-block w-100" alt="..." />
+                <img src="http://localhost:3000/img/img-5.jpg" className="d-block w-100" alt="..." />
               </div>
               <div className="carousel-item">
                 <img src="img/img-6.jpg" className="d-block w-100" alt="..." />
